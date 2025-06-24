@@ -10,7 +10,7 @@
 *.sln.docstates
 
 *.env
-/Models/
+[Mm]odels/
 
 # Build results
 [Dd]ebug/
