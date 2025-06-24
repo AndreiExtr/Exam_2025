@@ -1,0 +1,38 @@
+<Window
+    x:Class="Project.AuthorizationPage"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Авторизация"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <StackPanel
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Orientation="Vertical">
+        <TextBlock
+            Margin="0,0,0,20"
+            HorizontalAlignment="Center"
+            FontWeight="Bold"
+            Text="Авторизация" />
+        <TextBox
+            Name="LoginNameText"
+            Width="400"
+            Margin="0,0,0,20"
+            Watermark="Введите логин" />
+        <TextBox
+            Name="PasswordNameText"
+            Width="400"
+            Margin="0,0,0,20"
+            PasswordChar="*"
+            Watermark="Введите пароль" />
+        <Button
+            HorizontalAlignment="Center"
+            Background="Blue"
+            Click="LoginOnClick"
+            Content="Войти"
+            Foreground="White" />
+    </StackPanel>
+</Window>

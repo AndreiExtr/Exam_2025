@@ -1,0 +1,54 @@
+<Window
+    x:Class="Project.ChangePopup"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Смена пароли"
+    Width="400"
+    Height="400"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <StackPanel
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Orientation="Vertical">
+        <TextBlock
+            Margin="0,0,0,20"
+            HorizontalAlignment="Center"
+            FontWeight="Bold"
+            Text="Смена пароли" />
+        <TextBox
+            Name="OldPasswordNameText"
+            Width="300"
+            Margin="0,0,0,20"
+            PasswordChar="*"
+            Watermark="Введите текущий пароль" />
+        <TextBox
+            Name="NewPasswordNameText"
+            Width="300"
+            Margin="0,0,0,20"
+            PasswordChar="*"
+            Watermark="Введите новый пароль" />
+
+        <TextBox
+            Name="NewNextPasswordNameText"
+            Width="300"
+            Margin="0,0,0,20"
+            PasswordChar="*"
+            Watermark="Подтвердите новый пароль" />
+
+        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+            <Button
+                Margin="0,0,20,0"
+                Click="CancelOnClick"
+                Content="Отмена" />
+            <Button
+                Background="Blue"
+                Click="EditOnClick"
+                Content="Изменить"
+                Foreground="White" />
+        </StackPanel>
+    </StackPanel>
+</Window>

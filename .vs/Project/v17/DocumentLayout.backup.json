@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{520FFE59-6247-42C7-AAD7-6AF4B6EAE160}|Project\\Project.csproj|d:\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\project\\project\\models\\useritcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{520FFE59-6247-42C7-AAD7-6AF4B6EAE160}|Project\\Project.csproj|solutionrelative:project\\models\\useritcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDFD15D0-4F0C-4ACD-ACD3-A7C3954DC3DD}|Validation\\Validation.csproj|d:\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\project\\validation\\validationpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDFD15D0-4F0C-4ACD-ACD3-A7C3954DC3DD}|Validation\\Validation.csproj|solutionrelative:validation\\validationpage.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{520FFE59-6247-42C7-AAD7-6AF4B6EAE160}|Project\\Project.csproj|d:\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\project\\project\\pages\\authorizationpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{520FFE59-6247-42C7-AAD7-6AF4B6EAE160}|Project\\Project.csproj|solutionrelative:project\\pages\\authorizationpage.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ValidationPage.axaml.cs",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Project\\Validation\\ValidationPage.axaml.cs",
+              "RelativeDocumentMoniker": "Validation\\ValidationPage.axaml.cs",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Project\\Validation\\ValidationPage.axaml.cs",
+              "RelativeToolTip": "Validation\\ValidationPage.axaml.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwCkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:35:09.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserItContext.cs",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Project\\Project\\Models\\UserItContext.cs",
+              "RelativeDocumentMoniker": "Project\\Models\\UserItContext.cs",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Project\\Project\\Models\\UserItContext.cs*",
+              "RelativeToolTip": "Project\\Models\\UserItContext.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAkwC8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T16:34:47.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AuthorizationPage.axaml",
+              "DocumentMoniker": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Project\\Project\\Pages\\AuthorizationPage.axaml",
+              "RelativeDocumentMoniker": "Project\\Pages\\AuthorizationPage.axaml",
+              "ToolTip": "D:\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430 (4)\\Project\\Project\\Pages\\AuthorizationPage.axaml",
+              "RelativeToolTip": "Project\\Pages\\AuthorizationPage.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-24T16:34:21.289Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

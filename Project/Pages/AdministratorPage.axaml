@@ -1,0 +1,99 @@
+<Window
+    x:Class="Project.AdministratorPage"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:Project"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Администратор"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    x:DataType="local:AdministratorPage"
+    mc:Ignorable="d">
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="60" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="60" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="60" />
+        </Grid.ColumnDefinitions>
+        <Button
+            Grid.Row="0"
+            Grid.Column="1"
+            Background="Blue"
+            Click="AddNewOnClick"
+            Content="Добавить пользователя"
+            Foreground="White" />
+        <Button
+            Grid.Row="0"
+            Grid.Column="2"
+            Background="red"
+            Click="ExitOnClick"
+            Content="Выйти"
+            Foreground="White" />
+        <DataGrid
+            Grid.Row="1"
+            Grid.Column="1"
+            ItemsSource="{Binding Users}">
+            <DataGrid.Columns>
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding FirstName}"
+                    Header="Фамилия"
+                    IsReadOnly="True" />
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding LastName}"
+                    Header="Имя"
+                    IsReadOnly="True" />
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding MiddleName}"
+                    Header="Отчество"
+                    IsReadOnly="True" />
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding Phone}"
+                    Header="Телефон"
+                    IsReadOnly="True" />
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding Email}"
+                    Header="Email"
+                    IsReadOnly="True" />
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding Login}"
+                    Header="Логин"
+                    IsReadOnly="True" />
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding Password}"
+                    Header="Пароль"
+                    IsReadOnly="True" />
+                <DataGridTextColumn
+                    Width="*"
+                    Binding="{Binding Role.Name}"
+                    Header="Роль"
+                    IsReadOnly="True" />
+                <DataGridTemplateColumn Width="200" Header="Доступ">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ComboBox
+                                Width="200"
+                                SelectedIndex="{Binding BlockCountIndex, Mode=TwoWay}"
+                                SelectionChanged="ComboboxSelection">
+                                <ComboBoxItem Content="Доступен" Tag="false" />
+                                <ComboBoxItem Content="Заблокирован" Tag="true" />
+                            </ComboBox>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

@@ -1,0 +1,78 @@
+<Window
+    x:Class="Project.NewUserPopup"
+    xmlns="https://github.com/avaloniaui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Name="root"
+    Title="Новый пользователь"
+    Width="400"
+    Height="500"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    mc:Ignorable="d">
+    <StackPanel
+        HorizontalAlignment="Center"
+        VerticalAlignment="Center"
+        Orientation="Vertical">
+        <TextBlock
+            Margin="0,0,0,20"
+            HorizontalAlignment="Center"
+            FontWeight="Bold"
+            Text="Новый пользователь" />
+        <TextBox
+            Name="firstNew"
+            Width="300"
+            Margin="0,0,0,20"
+            Watermark="Введите фамилию" />
+        <TextBox
+            Name="lastNew"
+            Width="300"
+            Margin="0,0,0,20"
+            Watermark="Введите имя" />
+        <TextBox
+            Name="middleNew"
+            Width="300"
+            Margin="0,0,0,20"
+            Watermark="Введите отчество" />
+        <TextBox
+            Name="phoneNew"
+            Width="300"
+            Margin="0,0,0,20"
+            Watermark="Введите телефон" />
+        <TextBox
+            Name="emailNew"
+            Width="300"
+            Margin="0,0,0,20"
+            Watermark="Введите почту" />
+        <TextBox
+            Name="loginNew"
+            Width="300"
+            Margin="0,0,0,20"
+            Watermark="Введите логин" />
+        <TextBox
+            Name="passwordNew"
+            Width="300"
+            Margin="0,0,0,20"
+            Watermark="Введите пароль" />
+        <ComboBox
+            Name="roleCombobox"
+            Width="300"
+            Margin="0,0,0,20"
+            ItemsSource="{Binding #root.roleList}"
+            SelectedItem="{Binding #root.SelectedRole}" />
+
+
+        <StackPanel HorizontalAlignment="Right" Orientation="Horizontal">
+            <Button
+                Margin="0,0,20,0"
+                Click="CancelOnClick"
+                Content="Отмена" />
+            <Button
+                Background="Blue"
+                Click="AddUserOnClick"
+                Content="Добаавить"
+                Foreground="White" />
+        </StackPanel>
+    </StackPanel>
+</Window>
